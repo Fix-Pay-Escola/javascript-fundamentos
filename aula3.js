@@ -1,5 +1,5 @@
 //funções
-//autor: Lucas
+//autor: Lucass
 function maioridade(idade){
     if(idade > 18){
         return maioridade = true
