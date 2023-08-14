@@ -1,5 +1,5 @@
 //tipos de comparações e dados
-//autor: Lucas
+//autor: Lucass
 const num1 = 456
 const num2 = "456"
 
