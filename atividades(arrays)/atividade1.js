@@ -4,4 +4,4 @@ const nota3 = 8;
 const nota4 = 7.5;
 const media = (nota1 + nota2 + nota3 + nota4) / 4;
 console.log (`a media do aluno eh ${media}`);
-//autor:isabel
+//autora:isabel
