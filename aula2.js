@@ -1,6 +1,6 @@
 //IF-ELSE
 //TRUE-FALSE
-
+//autor: Lucas
 let base = 1
 let altura = 0
 let area
