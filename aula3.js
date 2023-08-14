@@ -15,7 +15,7 @@ function checando_maioridade(){
         return console.log("venda não autorizada")
     }
 }
-console.log("checando a idade do cliente")
+console.log("checando a idade do cliente")  
 
 let  idade = 90;
 maioridade(idade);
