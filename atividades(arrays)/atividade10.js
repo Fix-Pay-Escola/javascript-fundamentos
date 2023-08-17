@@ -1,21 +1,16 @@
-let notas = [9, 9.5, 7, 9]
+let notas = [11, 0, 0, 0]
 
-for (let i = 0, j = 0; i < notas.length; i++, j++) {
-    if (notas[i] < 10 && notas[i] >= 0) {
-        if ((notas[i] + 1) > 10) {
-            notas[i] = 10
+const notas_formatadas = notas.map((nota) => {
+    if ((nota + 1) > 10){
+        return nota = 10
+    }
+    else if(nota < 10 && nota >= 0){
+        return nota +=1
+    }
+    else{
+        return console.error('deu errado')
+    }
+})
 
-        } else {
-            notas[i] += 1
-        }
-    } else if (notas[i] > 10) {
-        console.log('uma nota acima de 10 foi colocada no plano de notas os pontos não serão colocados até a correção')
-        break
-    } else if (notas[i] < 0) {
-        console.log("corrija o plano de notas o sistema notou uma nota negativa")
-        break
-    }
-    if (j == notas.length) {
-        console.log(notas)
-    }
-}
+console.log(notas_formatadas)
+//autor: lucas
