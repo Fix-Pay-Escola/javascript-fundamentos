@@ -15,3 +15,4 @@ const resultado1 =filmes.filter ((filme,indice) => {
         return lancamento[indice] ===2019
         })
         console.log(`o filme lançado em 2019 foi ${resultado2}`)
+        //autor: leo
